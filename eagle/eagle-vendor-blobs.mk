@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/sony/eagle/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/sony/eagle/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
+    vendor/sony/eagle/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_LTO08BS0_liveshot.so:system/lib/libchromatix_imx134_LTO08BS0_liveshot.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_LTO08BS0_video_hd.so:system/lib/libchromatix_imx134_LTO08BS0_video_hd.so \
     vendor/sony/eagle/proprietary/lib/libchromatix_imx134_SOI08BS2_liveshot.so:system/lib/libchromatix_imx134_SOI08BS2_liveshot.so \
