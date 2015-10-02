@@ -83,6 +83,23 @@ PRODUCT_COPY_FILES += \
     vendor/sony/eagle/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/eagle/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/eagle/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_colorcorrection.cfg:system/vendor/camera/morpho_colorcorrection.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_denoiser.cfg:system/vendor/camera/morpho_denoiser.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_denoiser_subcam.cfg:system/vendor/camera/morpho_denoiser_subcam.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_denoiser_subcam_preview.cfg:system/vendor/camera/morpho_denoiser_subcam_preview.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_evadjust_subcam.cfg:system/vendor/camera/morpho_evadjust_subcam.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_face_detection.cfg:system/vendor/camera/morpho_face_detection.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_hdr.cfg:system/vendor/camera/morpho_hdr.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_hdr_subcam.cfg:system/vendor/camera/morpho_hdr_subcam.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_moviesolid.cfg:system/vendor/camera/morpho_moviesolid.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_moviesolid_subcam.cfg:system/vendor/camera/morpho_moviesolid_subcam.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_photosolid.cfg:system/vendor/camera/morpho_photosolid.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_photosolid_subcam.cfg:system/vendor/camera/morpho_photosolid_subcam.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_posturedetect.cfg:system/vendor/camera/morpho_posturedetect.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_scenedetect.cfg:system/vendor/camera/morpho_scenedetect.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_scenedetect_subcam.cfg:system/vendor/camera/morpho_scenedetect_subcam.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_super_resolution.cfg:system/vendor/camera/morpho_super_resolution.cfg \
+    vendor/sony/eagle/proprietary/vendor/camera/morpho_tracksolid.cfg:system/vendor/camera/morpho_tracksolid.cfg \
     vendor/sony/eagle/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/eagle/proprietary/vendor/lib/libactuator_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_camcorder.so \
     vendor/sony/eagle/proprietary/vendor/lib/libactuator_bu64291gwz_camera.so:system/vendor/lib/libactuator_bu64291gwz_camera.so \
