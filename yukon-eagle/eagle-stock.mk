@@ -206,3 +206,10 @@ PRODUCT_COPY_FILES += \
 # FM
 PRODUCT_COPY_FILES += \
 vendor/sony/yukon-eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
+
+# NFC
+PRODUCT_COPY_FILES += \
+vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin
