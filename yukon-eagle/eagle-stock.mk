@@ -198,3 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+
+# FM
+PRODUCT_COPY_FILES += \
+vendor/sony/yukon-eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
