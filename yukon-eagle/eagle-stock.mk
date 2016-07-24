@@ -213,3 +213,7 @@ vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v20.bin:system/e
 vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
 vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
 vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin
+
+# Sensors
+PRODUCT_COPY_FILES += \
+vendor/sony/yukon-eagle/proprietary/bin/memsicd:system/bin/memsicd
