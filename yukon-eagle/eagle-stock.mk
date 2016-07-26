@@ -195,6 +195,7 @@ vendor/sony/yukon-eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patch
 
 # NFC
 PRODUCT_COPY_FILES += \
+vendor/sony/yukon-eagle/proprietary/lib/hw/nfc_nci.pn54x.msm8226.so:system/lib/hw/nfc_nci.pn54x.msm8226.so \
 vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
 vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
 vendor/sony/yukon-eagle/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
