@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yukon-eagle/proprietary/vendor/camera/morpho_scenedetect_subcam.cfg:system/vendor/camera/morpho_scenedetect_subcam.cfg \
     vendor/sony/yukon-eagle/proprietary/vendor/camera/morpho_super_resolution.cfg:system/vendor/camera/morpho_super_resolution.cfg \
     vendor/sony/yukon-eagle/proprietary/vendor/camera/morpho_tracksolid.cfg:system/vendor/camera/morpho_tracksolid.cfg \
-    vendor/sony/yukon-eagle/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libactuator_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_camcorder.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libactuator_bu64291gwz_camera.so:system/vendor/lib/libactuator_bu64291gwz_camera.so \
     vendor/sony/yukon-eagle/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
