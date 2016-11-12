@@ -192,6 +192,81 @@ PRODUCT_COPY_FILES += \
 vendor/sony/yukon-eagle/proprietary/bin/memsicd:system/bin/memsicd \
 vendor/sony/yukon-eagle/proprietary/vendor/lib/hw/sensorsecond.eagle.so:system/vendor/lib/hw/sensorsecond.eagle.so
 
+#Audio/Media
+PRODUCT_COPY_FILES += \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/acdbloader.so:system/vendor/lib/acdbloader.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/acdbmapper.so:system/vendor/lib/acdbmapper.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/acdbrtac.so:system/vendor/lib/acdbrtac.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libavformat.so:system/vendor/lib/libavcodec.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libavutil.so:system/vendor/lib/libavutil.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libffmpeg_extractor.so:system/vendor/lib/libffmpeg_extractor.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libwressample.so:system/vendor/lib/libwressample.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libwscale.so:system/vendor/lib/libwscale.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so
+
+#ACDB
+PRODUCT_COPY_FILES += \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/QRD_Bluetooth_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/QRD_General_cal.acdb:system/etc/acdbdata/MTP/QRD_General_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/QRD_Global_cal.acdb:system/etc/acdbdata/MTP/QRD_Global_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/QRD_Handset_cal.acdb:system/etc/acdbdata/MTP/QRD_Handset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/QRD_Hdmi_cal.acdb:system/etc/acdbdata/MTP/QRD_Hdmi_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/QRD_Headset_cal.acdb:system/etc/acdbdata/MTP/QRD_Headset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/QRD_Speaker_cal.acdb:system/etc/acdbdata/MTP/QRD_Speaker_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY52_VY53_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/VY52_VY53_Bluetooth_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY52_VY53_General_cal.acdb:system/etc/acdbdata/MTP/VY52_VY53_General_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY52_VY53_Global_cal.acdb:system/etc/acdbdata/MTP/VY52_VY53_Global_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY52_VY53_Handset_cal.acdb:system/etc/acdbdata/MTP/VY52_VY53_Handset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY52_VY53_Hdmi_cal.acdb:system/etc/acdbdata/MTP/VY52_VY53_Hdmi_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY52_VY53_Headset_cal.acdb:system/etc/acdbdata/MTP/VY52_VY53_Headset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY52_VY53_Speaker_cal.acdb:system/etc/acdbdata/MTP/VY52_VY53_Speaker_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY55_VY56_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/VY55_VY56_Bluetooth_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY55_VY56_General_cal.acdb:system/etc/acdbdata/MTP/VY55_VY56_General_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY55_VY56_Global_cal.acdb:system/etc/acdbdata/MTP/VY55_VY56_Global_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY55_VY56_Handset_cal.acdb:system/etc/acdbdata/MTP/VY55_VY56_Handset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY55_VY56_Hdmi_cal.acdb:system/etc/acdbdata/MTP/VY55_VY56_Hdmi_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY55_VY56_Headset_cal.acdb:system/etc/acdbdata/MTP/VY55_VY56_Headset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY55_VY56_Speaker_cal.acdb:system/etc/acdbdata/MTP/VY55_VY56_Speaker_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_Bluetooth_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_General_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_General_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_Global_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_Global_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_Handset_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_Handset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_Hdmi_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_Hdmi_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_Headset_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_Headset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_Speaker_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59Speaker_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_AP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_AP_Bluetooth_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_AP_General_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_AP_General_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_AP_Global_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_AP_Global_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_AP_Handset_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_AP_Handset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_AP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_AP_Hdmi_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_AP_Headset_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_AP_Headset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_AP_Speaker_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_AP_Speaker_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_SP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_SP_Bluetooth_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_SP_General_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_SP_General_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_SP_Global_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_SP_Global_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_SP_Handset_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_SP_Handset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_SP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_SP_Hdmi_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_SP_Headset_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_SP_Headset_cal.acdb \
+vendor/sony/yukon-eagle/proprietary/etc/acdbdata/MTP/VY58_VY59_SP_Speaker_cal.acdb:system/etc/acdbdata/MTP/VY58_VY59_SP_Speaker_cal.acdb
+
 # FM
 PRODUCT_COPY_FILES += \
 vendor/sony/yukon-eagle/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
