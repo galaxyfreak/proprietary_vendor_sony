@@ -211,8 +211,8 @@ vendor/sony/yukon-eagle/proprietary/vendor/lib/libffmpeg_extractor.so:system/ven
 vendor/sony/yukon-eagle/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
 vendor/sony/yukon-eagle/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
 vendor/sony/yukon-eagle/proprietary/vendor/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
-vendor/sony/yukon-eagle/proprietary/vendor/lib/libwresample.so:system/vendor/lib/libwresample.so \
-vendor/sony/yukon-eagle/proprietary/vendor/lib/libwscale.so:system/vendor/lib/libwscale.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/llibswresample.so:system/vendor/lib/libswresample.so \
+vendor/sony/yukon-eagle/proprietary/vendor/lib/libswscale.so:system/vendor/lib/libswscale.so \
 vendor/sony/yukon-eagle/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so
 
 #ACDB
