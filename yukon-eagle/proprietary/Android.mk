@@ -26,9 +26,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors.eagle
+LOCAL_MODULE := sensors_vendor.eagle
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/hw/sensors.eagle.so
+LOCAL_SRC_FILES := vendor/lib/hw/sensors_vendor.eagle.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

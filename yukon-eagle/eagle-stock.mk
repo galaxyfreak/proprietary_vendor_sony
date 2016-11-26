@@ -190,7 +190,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
 vendor/sony/yukon-eagle/proprietary/bin/memsicd:system/bin/memsicd \
-vendor/sony/yukon-eagle/proprietary/vendor/lib/hw/sensorsecond.eagle.so:system/vendor/lib/hw/sensorsecond.eagle.so
+vendor/sony/yukon-eagle/proprietary/vendor/lib/hw/sensorsecond_vendor.eagle.so:system/vendor/lib/hw/sensorsecond_vendor.eagle.so
 
 #Audio/Media
 PRODUCT_COPY_FILES += \
